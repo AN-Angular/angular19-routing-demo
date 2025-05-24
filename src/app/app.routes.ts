@@ -28,3 +28,10 @@ export const routes: Routes = [
 // - You need to group multiple child routes
 // - You’re organizing a feature with many pages
 // - You want to lazy-load a full route tree
+
+// 📦 Summary of Best Practices
+// Lazy Loading: Utilize loadChildren to lazy-load feature modules, improving initial load times.
+// Standalone Components: Leverage standalone components for better modularity and reusability.
+// Nested Routes: Structure nested routes within their respective feature modules for clarity.
+// Route Guards: Implement guards like CanActivate to protect sensitive routes.
+// Wildcard Routes: Define a wildcard route to handle undefined paths gracefully.
